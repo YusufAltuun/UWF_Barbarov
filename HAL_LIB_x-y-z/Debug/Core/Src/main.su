@@ -1,0 +1,8 @@
+main.c:76:6:UART4_IRQHandler	16	static
+main.c:104:6:bt_veri_al_x	16	static
+main.c:116:6:STP_kontrol	16	static
+main.c:134:5:main	16	static
+main.c:201:6:SystemClock_Config	88	static
+main.c:246:13:MX_UART4_Init	8	static
+main.c:279:13:MX_GPIO_Init	40	static
+main.c:307:6:Error_Handler	4	static,ignoring_inline_asm

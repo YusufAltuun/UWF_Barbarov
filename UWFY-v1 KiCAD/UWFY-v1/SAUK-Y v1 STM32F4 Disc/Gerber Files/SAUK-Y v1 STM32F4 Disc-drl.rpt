@@ -1,0 +1,25 @@
+Drill report for C:/Users/PC/Desktop/UWF_Barbarov/UWFY-v1 KiCAD/UWFY-v1/SAUK-Y v1 STM32F4 Disc/SAUK-Y v1 STM32F4 Disc.kicad_pcb
+Created on 17.05.2022 22:09:05
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'SAUK-Y v1 STM32F4 Disc-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,950mm  0,0374"  (50 holes)
+    T2  1,000mm  0,0394"  (112 holes)
+    T3  1,400mm  0,0551"  (2 holes)
+
+    Total plated holes count 164
+
+
+Drill file 'SAUK-Y v1 STM32F4 Disc-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3,200mm  0,1260"  (2 holes)
+
+    Total unplated holes count 2

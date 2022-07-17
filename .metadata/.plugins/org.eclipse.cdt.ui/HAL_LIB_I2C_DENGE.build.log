@@ -1,0 +1,10 @@
+16:59:30 **** Build of configuration Debug for project HAL_LIB_I2C_DENGE ****
+make -j4 all 
+arm-none-eabi-size   HAL_LIB_I2C_DENGE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14056	     20	   1748	  15824	   3dd0	HAL_LIB_I2C_DENGE.elf
+Finished building: default.size.stdout
+ 
+
+16:59:31 Build Finished. 0 errors, 0 warnings. (took 884ms)
+

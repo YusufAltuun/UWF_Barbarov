@@ -1,0 +1,10 @@
+14:21:58 **** Incremental Build of configuration Debug for project HAL_LIB_M300 ****
+make -j4 all 
+arm-none-eabi-size   HAL_LIB_M300.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10568	     20	   1796	  12384	   3060	HAL_LIB_M300.elf
+Finished building: default.size.stdout
+ 
+
+14:21:59 Build Finished. 0 errors, 0 warnings. (took 456ms)
+

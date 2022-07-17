@@ -1,0 +1,6 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:0001_ESC.elf,org.eclipse.launchbar.core.descriptorType.default\:deneme.elf,org.eclipse.launchbar.core.descriptorType.default\:026-HC_SR04_EXAMPLE.elf
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:0001_ESC.elf/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:0001_ESC.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

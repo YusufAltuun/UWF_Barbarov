@@ -1,0 +1,17 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_ADC1 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_ENDGAME_1 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_I2C_INTERRUPT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_IKIADCJOY Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_LED_BLINKwBUTTON Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_UART_TRANSMIT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_USART_COMM Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_HCSR04 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MOTOR Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_ESC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_I2C_DENGE Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Denemeler Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_x-y-z Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_UART_teqatcam Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_A02YYUW_firstLook Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_MOTOR_TEST Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_MOTOR_TEST_SDK Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_MPU6050_1 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_Barbarov-V1 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_Barbarov_Finalv3 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_Barbarov_Finalv2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_M300 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_LED_BLINK Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_Barbarov_Finalv4 Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Denemeler\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Denemeler\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_A02YYUW_firstLook\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_A02YYUW_firstLook\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_ADC1\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_ADC1\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_I2C_DENGE\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_JOYSTICK_MOTOR_SURME\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_LED_BLINK\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_LED_BLINK\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_USB_UART\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HAL_LIB_x-y-z\ Debug/activeLaunchMode=debug

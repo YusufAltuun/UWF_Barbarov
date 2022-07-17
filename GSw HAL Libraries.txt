@@ -1,0 +1,13 @@
+I2C'de kaldın.
+
+HAL Kütüphaneleri Açılışta (Başlangıçta) Yapılması Gerekenler:
+
+RCC menüsünden High Speed Clock(HSE)→Crystal/Ceramic Resonator yap. Bu harici osilatör demek.
+Bu işlemin ardından Clock Configuration kısmından External tarafında Input Frequency'i 8 MHz'e indir.
+Input Frequency'de HSI değil HSE seçeneği seçilecek. Bu işlem sonrasında asıl çalışılacak değeri HCLK kısmına gireceğiz.
+168MHz'de çalışılacak ve kendi otomatik ayarını yapacaktır. 
+Sol üstte altın dişli kısmına tıkla ve yapılan değişiklikleri main.c kısmına aktar.
+
+HAL_Delay fonksiyonu var Allah'a bin şükür. İçerisine girilen değer ms değerinde oluyor. 
+1sn=1000ms
+Toggle fonksiyonu inversler

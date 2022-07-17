@@ -1,0 +1,4 @@
+jst konnektör kullanılacak!?!!?!?
+konnektörleri güncelle 
+mpu6050 güncelle
+çizimleri hallet

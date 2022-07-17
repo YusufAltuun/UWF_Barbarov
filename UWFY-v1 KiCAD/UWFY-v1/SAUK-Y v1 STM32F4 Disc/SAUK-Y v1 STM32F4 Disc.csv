@@ -1,0 +1,26 @@
+"Source:,""C:\Users\PC\Desktop\UWF_Barbarov\UWFY-v1 KiCAD\UWFY-v1\SAUK-Y v1 STM32F4 Disc\SAUK-Y v1 STM32F4 Disc.sch""";
+"Date:,""8.04.2022 00:03:11""";
+"Tool:,""Eeschema (5.1.10)-1""";
+"Component Count:,""21""";
+"Ref,""Value"",""Footprint"",""Datasheet"",""Manufacturer"",""Vendor""";Linkler
+"J1,""SAG_ARKA"",""Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"",""~"","""",""""";https://www.robolinkmarket.com/3-pin-jst-xh-2-tunik-konnektor-erkek-2
+"J2,""SAG_DIKEY"",""Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"",""~"","""",""""";https://www.robolinkmarket.com/3-pin-jst-xh-2-tunik-konnektor-erkek-2
+"J3,""SAG_ON"",""Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"",""~"","""",""""";https://www.robolinkmarket.com/3-pin-jst-xh-2-tunik-konnektor-erkek-2
+"J4,""SOL_ON"",""Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"",""~"","""",""""";https://www.robolinkmarket.com/3-pin-jst-xh-2-tunik-konnektor-erkek-2
+"J5,""A02YYUW-1"",""Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-egik-4pin-konnektor
+"J6,""A02YYUW-2"",""Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-egik-4pin-konnektor
+"J7,""GDK_GÃ¼c_Girisleri"",""TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05502HBWC_1x02_P5.00mm_Horizontal"",""~"","""",""""";https://www.direnc.net/2-pin-0-no-508mm-yesil-klemens
+"J8,""OPS_I2C"",""Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-duz-4pin-konnektor
+"J9,""MPU6050"",""Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"",""~"","""",""""";https://www.robotistan.com/8-pin-disi-header
+"J10,""USB_TTL"",""Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"",""~"","""",""""";https://www.robotistan.com/6-pin-disi-header-1
+"J11,""OPS_PWM1"",""Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-duz-3pin-konnektor
+"J12,""SOL_DIKEY"",""Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"",""~"","""",""""";https://www.robolinkmarket.com/3-pin-jst-xh-2-tunik-konnektor-erkek-2
+"J13,""SOL_ARKA"",""Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"",""~"","""",""""";https://www.robolinkmarket.com/3-pin-jst-xh-2-tunik-konnektor-erkek-2
+"J14,""OPS_MOT1"",""Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-duz-3pin-konnektor
+"J15,""OPS_MOT2"",""Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-duz-3pin-konnektor
+"J17,""A02YYUW-3"",""Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-egik-4pin-konnektor
+"J18,""M300"",""Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-egik-4pin-konnektor
+"J21,""OPS_PWM2"",""Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"",""~"","""",""""";https://www.robotistan.com/jstxh-254mm-duz-3pin-konnektor
+"J22,""SOL"",""Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical"",""~"","""",""""";https://ozdisan.com/konnektor-ve-baglanti-elemanlari/header-konnektorler/disi-headerlar/DS1023-2X25S21
+"J23,""SAG"",""Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical"",""~"","""",""""";https://ozdisan.com/konnektor-ve-baglanti-elemanlari/header-konnektorler/disi-headerlar/DS1023-2X25S21
+"U1,""STM32F4 Discovery Kartý";https://urun.n11.com/diger-bilgisayar-yedek-parcalari/stm32f4-discovery-stm32f407-cortex-m4-gelistirme-karti-modul-st-l-P467511196?utm_source=comp_cimri&utm_medium=cpc&utm_campaign=cimri_genel

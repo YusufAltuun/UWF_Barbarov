@@ -1,0 +1,20 @@
+20:30:49 **** Incremental Build of configuration Debug for project HAL_LIB_PID_v1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "HAL_LIB_PID_v1.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PC\Desktop\UWF_Barbarov\HAL_LIB_PID_v1\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="HAL_LIB_PID_v1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: HAL_LIB_PID_v1.elf
+ 
+arm-none-eabi-size   HAL_LIB_PID_v1.elf 
+arm-none-eabi-objdump -h -S  HAL_LIB_PID_v1.elf  > "HAL_LIB_PID_v1.list"
+arm-none-eabi-objcopy  -O binary  HAL_LIB_PID_v1.elf  "HAL_LIB_PID_v1.bin"
+   text	   data	    bss	    dec	    hex	filename
+   8408	     20	   1652	  10080	   2760	HAL_LIB_PID_v1.elf
+Finished building: default.size.stdout
+ 
+Finished building: HAL_LIB_PID_v1.bin
+ 
+Finished building: HAL_LIB_PID_v1.list
+ 
+
+20:31:02 Build Finished. 0 errors, 0 warnings. (took 12s.762ms)
+

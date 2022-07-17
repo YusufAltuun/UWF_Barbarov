@@ -1,0 +1,10 @@
+main.c:22:6:gpioConfig	8	static
+main.c:44:6:timerConfig	8	static
+main.c:62:6:adcConfig	8	static
+main.c:74:10:oku	8	static
+main.c:103:6:genel	16	static
+main.c:109:6:bekletme	16	static
+main.c:115:6:map	24	static
+main.c:120:5:main	16	static
+main.c:147:6:EVAL_AUDIO_TransferComplete_CallBack	16	static
+main.c:152:10:EVAL_AUDIO_GetSampleCallBack	4	static

@@ -1,0 +1,10 @@
+16:59:28 **** Build of configuration Debug for project HAL_LIB_ESC ****
+make -j4 all 
+arm-none-eabi-size   HAL_LIB_ESC.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8628	     20	   1644	  10292	   2834	HAL_LIB_ESC.elf
+Finished building: default.size.stdout
+ 
+
+16:59:29 Build Finished. 0 errors, 0 warnings. (took 810ms)
+

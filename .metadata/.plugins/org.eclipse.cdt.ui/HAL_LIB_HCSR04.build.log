@@ -1,0 +1,10 @@
+16:59:29 **** Build of configuration Debug for project HAL_LIB_HCSR04 ****
+make -j4 all 
+arm-none-eabi-size   HAL_LIB_HCSR04.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9152	     20	   1652	  10824	   2a48	HAL_LIB_HCSR04.elf
+Finished building: default.size.stdout
+ 
+
+16:59:30 Build Finished. 0 errors, 0 warnings. (took 1s.0ms)
+

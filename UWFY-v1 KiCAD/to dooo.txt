@@ -1,0 +1,17 @@
+2 tane uart
+2 tane i2c 
+6 tane pwm kullanılıyor
+
+6 tane pwm için motor yönleri tayin et
+
+olabilecek senaryolar
+1 tane pwm ışık için
+2 tane adc pini olsun
+1 tane SPI
+1 tane UART
+1 tane i2c
+6-8 tane GPIO pini
+güç ???!??!
+
+
+toplam pin 2+2+6+1+2+1+1+1+8=24 pin

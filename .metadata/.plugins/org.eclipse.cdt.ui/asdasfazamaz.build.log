@@ -1,0 +1,10 @@
+13:58:30 **** Incremental Build of configuration Debug for project asdasfazamaz ****
+make -j4 all 
+arm-none-eabi-size   asdasfazamaz.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10204	    136	   1720	  12060	   2f1c	asdasfazamaz.elf
+Finished building: default.size.stdout
+ 
+
+13:58:30 Build Finished. 0 errors, 0 warnings. (took 388ms)
+

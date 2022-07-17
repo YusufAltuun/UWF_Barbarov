@@ -1,0 +1,14 @@
+main.c:68:6:degis	8	static
+main.c:73:6:dur	4	static
+main.c:82:6:ilr	16	static
+main.c:91:6:ger	16	static
+main.c:100:6:sag	16	static
+main.c:109:6:sol	16	static
+main.c:124:5:main	8	static
+main.c:203:6:SystemClock_Config	88	static
+main.c:248:13:MX_I2C3_Init	8	static
+main.c:282:13:MX_TIM3_Init	48	static
+main.c:343:13:MX_TIM4_Init	48	static
+main.c:396:13:MX_USART1_UART_Init	8	static
+main.c:429:13:MX_GPIO_Init	24	static
+main.c:448:6:Error_Handler	4	static,ignoring_inline_asm

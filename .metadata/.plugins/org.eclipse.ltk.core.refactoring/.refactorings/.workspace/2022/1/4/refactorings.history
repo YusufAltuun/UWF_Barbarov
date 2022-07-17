@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;HAL_LIB_HCSR04&apos;" deleteContents="true" description="Delete resource &apos;HAL_LIB_HCSR04&apos;" element1="/HAL_LIB_HCSR04" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1642503094832"/>
+</session>

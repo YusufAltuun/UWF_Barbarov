@@ -1,0 +1,10 @@
+10:41:54 **** Build of configuration Debug for project HAL_LIB_MOTOR_TEST_SDK ****
+make -j4 all 
+arm-none-eabi-size   HAL_LIB_MOTOR_TEST_SDK.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8672	     20	   1644	  10336	   2860	HAL_LIB_MOTOR_TEST_SDK.elf
+Finished building: default.size.stdout
+ 
+
+10:41:55 Build Finished. 0 errors, 0 warnings. (took 667ms)
+

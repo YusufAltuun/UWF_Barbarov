@@ -1,0 +1,33 @@
+Proje Başlangıç : 1 Kasım 2021
+Proje Süresi : 5 ay
+
+#Yapılacaklar:
+1- HAL Kütüphaneleri öğrenilecek. + 
+2- OPENCV öğrenimi tamamlanacak. + 
+3- STM ve Python haberleşmesi tamamlanacak. + 
+4- MATLAB üzerinden PID kontrol algoritması çıkarılacak. +
+5- Sensör verileri okunacak, değerlendirilmesi yapılacak ve kesmeler ayarlanacak.+
+6- STM için çizim yapılacak.+
+7- Proje sonu...
+
+Tarihler:
+1 Kasım - 14 Kasım tarihleri arası HAL Kütüphaneleri Udemy üzerinden öğrenilecek.
+25 Kasım - 5 Aralık OpenCV ve STM haberleşmesini çözeceksin. Erken bitmesi durumunda bir sonraki tarihe başla.
+6 Aralık - 20 Aralık arası MATLAB ile uğraş.
+
+20 Ocak-20 Şubat'a sensörler gerçekle. PID bitmediyse PID'e daha çok uğraş.
+20 Şubat ve sonrası Altium çizimlerine başla. ALLPCB adamdır.
+
+
+20 Aralık - 14 Ocak arası finaller.
+
+Proje Bitiş Tarihi : Mart 2020
+
+Prototip aşamasında STM32F4 Discovery Geliştirme Kit’i kullanılacaktır. Prototip aşaması için bu kartın seçilmesinin sebebi geliştirici dostu arayüzü, ilk kullanım için ‘debugger’ kolaylığı ve internet üzerinden bilgi edinilebilmesinin rahatlığı ve sahip olmam önemli faktör olmuştur. Prototip aşaması tarih olarak 1 Kasım tarihinde başlanıp 28 Şubat tarihinde son bulacaktır. 
+1 Kasım tarihinden başlayan bu süreçte ilk olarak HAL Kütüphaneleri tekrarlanacaktır. 24 Kasım tarihinde bitecek HAL Kütüphaneleri süreci ardından Python ve STM32 haberleşmesi araştırılacak ve gerçeklenecektir. Bu araştırma 25 Kasım ve 5 Aralık tarihleri arasında planlanmıştır. STM32 ve Python programı haberleşmesi tamamlandıktan sonra aracın dengesi için kullanılacak olan MPU 6050 gyro sensörü ile MATLAB uygulaması üzerinden aracın PID kontrol yazılımı yapılacaktır. PID kontrol yazılımının tamamlanması için planlanan tarih ise 14 Ocak olarak belirlenmiştir. Bu tarihten sonra su altı aracımızda kullanılması planlanan sensörlerin prototip kartımız olan STM32F4 Discovery kartında denemesi yapılacak ve su altında kullanıma hazır hale getirilecektir. Sensörlerin kullanıma hazır hale gelmesi 28 Şubat tarihi olarak belirlenmiş ve prototip aşaması tamamlanmıştır. 
+Bu aşamadan sonra Altium Designer programında su altı uçuş kartımızın PCB’si çizilecek ve baskıya gidilecektir. Bu aşamanın tahmini bitiş süresi ise 18 Mart olarak belirlenmiştir. 
+
+ Prototip aşamasının tamamlanması sonucu ‘UWF-Y’ adını verdiğim özgün yazılımımın ardından bu yazılımın fiziksel olarak gerçeklenmesi için Altium Designer programından PCB çizimi tamamlanarak otonom su altı araçları için kontrol kartı tamamlanmış olacaktır.
+
+PID yazılımının ve diğer yazılımların STM mikrodenetleyicisine aktarılabilmesi için harici olarak bir ‘debugger’ kartı da tasarlanacaktır. Aynı zamanda geliştirmeye açık bir yazılım ve donanım olarak da kullanılacaktır. Kullanılan alana göre sensör ekleme ve çıkarma yapabilmek için bu kart üzerinde genel amaçlı giriş ve çıkış pinleri, haberleşme sağlanabilmesi için SPI, I2C pinleri ve yine kullanıcıya sunulan zamanlayıcılar, analog-dijital ve dijital-analog dönüştürücü pinleri bırakılacaktır. 
+

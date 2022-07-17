@@ -1,0 +1,10 @@
+16:52:10 **** Incremental Build of configuration Debug for project HAL_LIB_Circular_Buffer ****
+make -j4 all 
+arm-none-eabi-size   HAL_LIB_Circular_Buffer.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10612	    120	   1656	  12388	   3064	HAL_LIB_Circular_Buffer.elf
+Finished building: default.size.stdout
+ 
+
+16:52:10 Build Finished. 0 errors, 0 warnings. (took 518ms)
+

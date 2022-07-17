@@ -1,0 +1,77 @@
+11.05.2022 Coşkun Taşdemir STM32 Programlama - Seri Haberleşme Notları
+#Link: https://www.youtube.com/watch?v=uktFwZX2TTE
+
+Seri Haberleşme-1: 
+Start biti daima 1 bittir ama stop biti iki bitten oluşabilir.
+8 adet veri biti vardır. En çok kullanılan yapı 8 bitliktir. 5 bite kadar inebilir.
+Bit hızı = 1/baud rate olarak hesaplanabilir. 
+
+RS232 fiziki bir katmandır. Tx→Rx, Rx→Tx. İki ayrı MCU için gnd ortak olmalı.
+Full Duplex: Her iki tarafta aynı anda veri alabilir veri verebilir.
+Half Duplex: Her iki tarafta Rx Tx iletişimi yapabilir ama diğerini beklemek zorunda.
+Simplex: Tek taraflı iletişim.
+Baud Rate: iletişim hızıdır. 300 ve katları şekilde. Doğru haberleşme için aynı
+baud rate hızı olmalı. 
+ÖRR→ 115200bps hız var. 10 bitlik bir frame sahibisin. Bu değerlere göre 11520 byte
+veri gönderebilirsin saniyede.
+
+Seri Haberleşme-2:
+TTL kullanmadan iletişime geçmek için Virtual COM Port adı verilen bir sistem kul-
+lanılmakta. Nucleo kartlar direkt olarak bağlanırlarken Discovery kartlar ayar
+yapmak zorundalar. Bu ayarda da USB_OTG_FS ayarı only_device seçeneği yapılır.
+Ardından da diğer USB seçeneği Virtual COM Port olarak seçilir. Bu veri aktarımı
+mini-USB ile yapılmaktadır. https://www.youtube.com/watch?v=7oED-m34EKk&list=PLK7gokjqtRvVwFli_2RLDgmYucH16i3U2&index=13&t=168s
+
+Diğer cihazlarla bağlantıda GND ortak olmalı. Voltaj değerleri de aynı olmalı.
+Mesafe uzun olursa RS232 de kullanılabilir. Amaç veri kaybının azalması.
+
+**Topraklamatı ortakla ne olur ne olmaz!!!!! Gerçi aynı PC'den kablo çıkışı olacak.
+Toprak hattı aynı.
+
+Seri Haberleşme-3:
+TDR= Transmit Data Register
+RDR= Receive Data Register
+BRR= Baudrate Register
+
+UART hangi hattan besleniyor? UART Alternative Function'dır. Datasheet e göre 
+AF hattını belirlersin. Pclk önemli baudrate ayarı için önemli. 
+
+!!! Bu değerler eğitimden yani STM32F0xx değerlerinden alınma. Discovery için
+değerler değişebilir. 
+
+USARTx_CR1: 
+UE:     USART Enable ise alt taraf düzenlemesi yapılabilir. UE=0
+M1:     kelime uzunluğu ile alakalıdır.
+TE:     Transmitter Enabled 
+RE:     Receiver Enabled
+PS:     Parity Selection
+TXIE:   Transmitter Empty Interrupt Enable
+RXNEIE: Receiver Not Empty Interrupt Enable
+
+USARTx_CR2: 
+Stop bit ayarı yapılır. 
+
+USARTx_CR3: Daha sonra
+
+USARTx_BRR: 
+
+Baudrate hesabı formülü: 
+**Oversampling değerim 16 ise: Tx/Rx Baud: Pclk/USARTDIV
+**Oversampling değerim 8 ise:  Tx/Rx Baud: 2*Pclk/USARTDIV
+Oversampling 8 olursa kafalar karışır.
+
+Decimal sayıyı hexadecimal'e çeviriyorsun register'a yazarken.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

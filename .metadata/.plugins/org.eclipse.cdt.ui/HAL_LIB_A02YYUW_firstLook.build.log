@@ -1,0 +1,10 @@
+13:10:45 **** Incremental Build of configuration Debug for project HAL_LIB_A02YYUW_firstLook ****
+make -j4 all 
+arm-none-eabi-size   HAL_LIB_A02YYUW_firstLook.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7668	     20	   1700	   9388	   24ac	HAL_LIB_A02YYUW_firstLook.elf
+Finished building: default.size.stdout
+ 
+
+13:10:48 Build Finished. 0 errors, 0 warnings. (took 3s.183ms)
+

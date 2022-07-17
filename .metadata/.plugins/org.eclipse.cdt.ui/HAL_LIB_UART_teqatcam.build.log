@@ -1,0 +1,10 @@
+16:20:21 **** Build of configuration Debug for project HAL_LIB_UART_teqatcam ****
+make -j4 all 
+arm-none-eabi-size   HAL_LIB_UART_teqatcam.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13888	    120	   1744	  15752	   3d88	HAL_LIB_UART_teqatcam.elf
+Finished building: default.size.stdout
+ 
+
+16:20:23 Build Finished. 0 errors, 0 warnings. (took 1s.220ms)
+
